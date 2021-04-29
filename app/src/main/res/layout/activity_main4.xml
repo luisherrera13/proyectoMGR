@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre de objeto"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:layout_below="@+id/et_name"
+        android:inputType="text"
+        android:hint="Descripcion"/>
+    <EditText
+        android:id="@+id/et_itemFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:layout_below="@+id/et_description"
+        android:inputType="text"
+        android:hint="Funcion del objeto"/>
+
+    <EditText
+        android:id="@+id/et_itemType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:layout_below="@+id/et_itemFunction"
+        android:inputType="text"
+        android:hint="Tipo de objeto"/>
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:layout_below="@+id/et_itemType"
+        android:inputType="text"
+        android:hint="Precio de objeto"/>
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:layout_below="@+id/et_price"
+        android:text="Registrar Objeto" />
+
+    <TextView
+        android:id="@+id/tvGPSLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/btn_registrar"
+        android:text="Localizacion actual"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
